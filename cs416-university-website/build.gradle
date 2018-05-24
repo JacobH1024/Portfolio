@@ -1,0 +1,22 @@
+group 'org.goldteam.aau'
+version '0.1-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.sparkjava:spark-core:2.5.5"
+    compile "com.sparkjava:spark-template-freemarker:2.5.5"
+    compile "org.slf4j:slf4j-simple:1.7.21"
+    compile "org.sql2o:sql2o:1.5.4"
+    compile "mysql:mysql-connector-java:5.1.6"
+    compile "com.googlecode.json-simple:json-simple:1.1.1"
+    testCompile "junit:junit:4.12"
+}
