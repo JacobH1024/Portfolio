@@ -1,0 +1,26 @@
+Next token is: 9 next lexeme is (
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 4 next lexeme is sum
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: 5 next lexeme is +
+Exit <factor>
+Exit <term>
+Next token is: 3 next lexeme is 47
+Enter <term>
+Enter <factor>
+Next token is: 10 next lexeme is )
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: 8 next lexeme is /
+Exit <factor>
+Next token is: 4 next lexeme is total
+Enter <factor>
+Next token is: -1 next lexeme is EOF
+Exit <factor>
+Exit <term>
+Exit <expr>
